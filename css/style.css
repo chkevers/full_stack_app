@@ -90,3 +90,12 @@
     color:goldenrod;
 }
 
+/* Albums page */
+
+.albums-global {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    font-family: 'Waterfall', sans-serif;
+    font-size: 35px;
+    justify-items: center;
+}
