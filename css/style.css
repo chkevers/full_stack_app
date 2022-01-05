@@ -1,6 +1,7 @@
 /********index.html******/
 /* Importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
 /* Top container on index page */
 .div-top-top {
@@ -92,10 +93,22 @@
 
 /* Albums page */
 
-.albums-global {
+/* .albums-global {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    font-family: 'Waterfall', sans-serif;
+    font-family: 'Pirata One', cursive;
     font-size: 35px;
     justify-items: center;
+    color:rgb(214, 137, 20);
+} */
+
+.albums-global {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Pirata One', cursive;
+    font-size: 80px;;
+    color:rgb(214, 137, 20);
+    /* padding: 10px; */
+    gap: 10px;
 }
